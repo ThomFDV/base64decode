@@ -34,7 +34,7 @@ fn base64decode(input: String) -> String {
 }
  
 fn main() {
-    let input = String::new();
+    let mut input = String::new();
     std::io::stdin().read_line(&mut input).unwrap();
     println!("Input: {}", input);
  
